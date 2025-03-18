@@ -19,18 +19,62 @@ In this paper, we further analyze the phenomenon of measure synchronization as i
 
 A schematic of the Huygens synchronization setup can be found in various references (e.g., [link to a related study](https://royalsocietypublishing.org/doi/10.1098/rsos.170777)). In essence, two pendulums are suspended from a beam that can move along its horizontal axis. The equations of motion governing this system are:
 
+A schematic of the Huygens synchronization setup can be found in various references (e.g., [link to a related study](https://royalsocietypublishing.org/doi/10.1098/rsos.170777)). In essence, two pendulums are suspended from a beam that can move along its horizontal axis. The equations of motion governing this system are:
+
 $$
-m{l_1}^2\ddot{\theta_1} + mgl_1sin\theta_1+ ml_1\ddot{x}cos\theta_1 = 0\newline
-m{l_2}^2\ddot{\theta_2} + mgl_2sin\theta_2+ ml_2\ddot{x}cos\theta_2 = 0\\
-(M+2m)\ddot{x}+ml_1(\ddot{\theta_1}cos\theta_1 - \dot{\theta_1^2}sin\theta_1)+ml_2(\ddot{\theta_2}cos\theta_2 - \dot{\theta_2^2}sin\theta_2) =  0\\
+\begin{aligned}
+m{l_1}^2\,\ddot{\theta}_1 
+&\;+\; m g l_1 \sin(\theta_1) 
+\;+\; m l_1 \,\ddot{x}\,\cos(\theta_1) 
+\;=\; 0,\\
+m{l_2}^2\,\ddot{\theta}_2 
+&\;+\; m g l_2 \sin(\theta_2) 
+\;+\; m l_2 \,\ddot{x}\,\cos(\theta_2) 
+\;=\; 0,\\
+(M + 2m)\,\ddot{x}
+&\;+\; m l_1 \Bigl(\ddot{\theta}_1 \cos(\theta_1) - \dot{\theta}_1^2 \sin(\theta_1)\Bigr)
+\;+\; m l_2 \Bigl(\ddot{\theta}_2 \cos(\theta_2) - \dot{\theta}_2^2 \sin(\theta_2)\Bigr) 
+\;=\; 0.
+\end{aligned}
 $$
-Now, with a linear drag force with drag coefficient $ C_x $ and a spring with spring constant $ K $ attached to the rod, only the equation of motion of $ x $ coordinate changes:
+
+Now, with a linear drag force with drag coefficient \(C_x\) and a spring with spring constant \(K\) attached to the rod, only the equation of motion of \(x\) changes:
+
 $$
-(M+2m)\ddot{x}+ml_1(\ddot{\theta_1}cos\theta_1 - \dot{\theta_1^2}sin\theta_1)+ml_2(\ddot{\theta_2}cos\theta_2 - \dot{\theta_2^2}sin\theta_2) +C_x\dot{x}+Kx=  0\\
+(M+2m)\,\ddot{x}
+\;+\; m l_1 \Bigl(\ddot{\theta}_1 \cos(\theta_1) - \dot{\theta}_1^2 \sin(\theta_1)\Bigr)
+\;+\; m l_2 \Bigl(\ddot{\theta}_2 \cos(\theta_2) - \dot{\theta}_2^2 \sin(\theta_2)\Bigr)
+\;+\; C_x\,\dot{x} 
+\;+\; K\,x
+\;=\; 0.
 $$
-Combining first two equations of motion for $ \ddot{\theta_i} $ with the one for $ x $ we get:
+
+Combining the first two equations of motion for \(\ddot{\theta}_i\) with the one for \(x\), we get:
+
 $$
-\ddot{x} = \frac{\frac{g}{2}sin2\theta_1+\frac{g}{2}sin2\theta_2+l_1(\dot{\theta_1^2}sin\theta_1) +l_2(\dot{\theta_2^2}sin\theta_2)-C_x\dot x-Kx}{\frac{M}{m}+2-cos^2\theta_1-cos^2\theta_2}
+\ddot{x}
+\;=\; 
+\frac{
+\frac{g}{2}\,\sin\bigl(2\theta_1\bigr)
+\;+\;
+\frac{g}{2}\,\sin\bigl(2\theta_2\bigr)
+\;+\;
+l_1\,\dot{\theta}_1^2\,\sin(\theta_1)
+\;+\;
+l_2\,\dot{\theta}_2^2\,\sin(\theta_2)
+\;-\;
+C_x\,\dot{x}
+\;-\;
+K\,x
+}{
+\frac{M}{m}
+\;+\;
+2
+\;-\;
+\cos^2(\theta_1)
+\;-\;
+\cos^2(\theta_2)
+}.
 $$
 
 ---

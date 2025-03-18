@@ -30,12 +30,12 @@ m l_2^2 \ddot{\theta}_2 \;+\; m g l_2 \sin(\theta_2) \;+\; m l_2 \,\ddot{x}\,\co
 
 When we include a linear drag force with drag coefficient \(C_x\) acting on the beam, and a spring with spring constant \(K\) attached to the rod, only the equation of motion for \(x\) changes:
 
-\[
+$$
 \begin{aligned}
 (M+2m)\ddot{x} \;+\; m l_1 \bigl(\ddot{\theta}_1\cos(\theta_1) \;-\; \dot{\theta}_1^2\sin(\theta_1)\bigr) \\
 \;+\; m l_2 \bigl(\ddot{\theta}_2\cos(\theta_2) \;-\; \dot{\theta}_2^2\sin(\theta_2)\bigr) \;+\; C_x\,\dot{x} \;+\; K\,x &= 0.
 \end{aligned}
-\]
+$$
 
 By combining the first two equations (for \(\theta_1\) and \(\theta_2\)) into the last one (for \(x\)), one obtains an expression for \(\ddot{x}\):
 

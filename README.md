@@ -20,7 +20,7 @@ In this paper, we further analyze the phenomenon of measure synchronization as i
 A schematic of the Huygens synchronization setup can be found in various references (e.g., [link to a related study](https://royalsocietypublishing.org/doi/10.1098/rsos.170777)). In essence, two pendulums are suspended from a beam that can move along its horizontal axis. The equations of motion governing this system are:
 
 $$
-m{l_1}^2\ddot{\theta_1} + mgl_1sin\theta_1+ ml_1\ddot{x}cos\theta_1 = 0\\
+m{l_1}^2\ddot{\theta_1} + mgl_1sin\theta_1+ ml_1\ddot{x}cos\theta_1 = 0\newline
 m{l_2}^2\ddot{\theta_2} + mgl_2sin\theta_2+ ml_2\ddot{x}cos\theta_2 = 0\\
 (M+2m)\ddot{x}+ml_1(\ddot{\theta_1}cos\theta_1 - \dot{\theta_1^2}sin\theta_1)+ml_2(\ddot{\theta_2}cos\theta_2 - \dot{\theta_2^2}sin\theta_2) =  0\\
 $$

@@ -41,12 +41,12 @@ $$
 Now, with a linear drag force with drag coefficient \(C_x\) and a spring with spring constant \(K\) attached to the rod, only the equation of motion of \(x\) changes:
 
 $$
-(M+2m)\,\ddot{x}
+(M+2m)\ddot{x}
 \+ m l_1 \Bigl(\ddot{\theta}_1 \cos(\theta_1) - \dot{\theta}_1^2 \sin(\theta_1)\Bigr)
 \+ m l_2 \Bigl(\ddot{\theta}_2 \cos(\theta_2) - \dot{\theta}_2^2 \sin(\theta_2)\Bigr)
-\+ C_x\,\dot{x} 
-\+ K\,x
-\= 0.
+\+ C_x\dot{x} 
+\+ Kx
+\= 0
 $$
 
 Combining the first two equations of motion for \(\ddot{\theta}_i\) with the one for \(x\), we get:

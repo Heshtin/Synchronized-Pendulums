@@ -16,9 +16,7 @@ In this paper, we further analyze the phenomenon of measure synchronization as i
 ---
 
 ## Huygens’ Synchronization Setup
-<p align="center">
-  <img src="https://royalsocietypublishing.org/cms/asset/ba14758a-559e-4351-a6bd-8df4bbad713d/rsos170777f01.jpg" width="500" alt="Parachute Deployment">
-</p>
+![Parachute Deployment](images/pendulum setup.jpg)
 
 
 A schematic of the Huygens synchronization setup can be found in various references (e.g., [link to a related study](https://royalsocietypublishing.org/doi/10.1098/rsos.170777)). In essence, two pendulums are suspended from a beam that can move along its horizontal axis. The equations of motion governing this system are:

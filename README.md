@@ -24,11 +24,11 @@ A schematic of the Huygens synchronization setup can be found in various referen
 $$
 \begin{aligned}
 m{l_1}^2\ddot{\theta}_1 
-&\;+ m g l_1 \sin(\theta_1) 
-\;+ m l_1 \ddot{x}\,\cos(\theta_1) 
-\;= 0\\
+&\+ m g l_1 \sin(\theta_1) 
+\+ m l_1 \ddot{x}\,\cos(\theta_1) 
+\= 0\\
 m{l_2}^2\ddot{\theta}_2 
-&\;+ m g l_2 \sin(\theta_2) 
+&\+ m g l_2 \sin(\theta_2) 
 \+ m l_2 \ddot{x}\cos(\theta_2) 
 \= 0\\
 (M + 2m)\ddot{x}

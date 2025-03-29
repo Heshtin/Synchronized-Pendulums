@@ -16,6 +16,7 @@ In this paper, we further analyze the phenomenon of measure synchronization as i
 ---
 
 ## Huygens’ Synchronization Setup
+![Alt text](https://royalsocietypublishing.org/cms/asset/df91ef7b-b570-4f26-b59a-c34629540494/rsos170777f01.jpg)
 
 A schematic of the Huygens synchronization setup can be found in various references (e.g., [link to a related study](https://royalsocietypublishing.org/doi/10.1098/rsos.170777)). In essence, two pendulums are suspended from a beam that can move along its horizontal axis. The equations of motion governing this system are:
 
@@ -53,17 +54,17 @@ $$
 \ddot{x}
 \=\
 \frac{
-\frac{g}{2}\,\sin\bigl(2\theta_1\bigr)
+\frac{g}{2}\sin\bigl(2\theta_1\bigr)
 \+\
-\frac{g}{2}\,\sin\bigl(2\theta_2\bigr)
+\frac{g}{2}\sin\bigl(2\theta_2\bigr)
 \+\
-l_1\,\dot{\theta}_1^2\,\sin(\theta_1)
+l_1\dot{\theta}_1^2\,\sin(\theta_1)
 \+\
-l_2\,\dot{\theta}_2^2\,\sin(\theta_2)
+l_2\dot{\theta}_2^2\,\sin(\theta_2)
 \-\
-C_x\,\dot{x}
+C_x\dot{x}
 \-\
-K\,x
+K\x
 }{
 \frac{M}{m}
 \+\
@@ -72,7 +73,7 @@ K\,x
 \cos^2(\theta_1)
 \-\
 \cos^2(\theta_2)
-}.
+}
 $$
 
 
@@ -90,4 +91,3 @@ To explore this system, we employ a fourth-order Runge–Kutta (RK4) integration
 1. C. Huygens, *Horologium Oscillatorium* (Maguy, Paris, 1673).  
 2. R. Dilão, “Huygens synchronization of two clocks,” *Chaos* **19**, 023118 (2009).  
 3. K. Czolczynski, P. Perlikowski, A. Stefanski, and T. Kapitaniak, “Huygens’ synchronization,” *International Journal of Bifurcation and Chaos* **21**, 2047 (2011).  
-4. [Various references on measure synchronization in Hamiltonian systems]

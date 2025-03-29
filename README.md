@@ -29,12 +29,12 @@ m{l_1}^2\,\ddot{\theta}_1
 \;=\; 0,\\
 m{l_2}^2\,\ddot{\theta}_2 
 &\;+\; m g l_2 \sin(\theta_2) 
-\;+\; m l_2 \,\ddot{x}\,\cos(\theta_2) 
-\;=\; 0,\\
-(M + 2m)\,\ddot{x}
-&\;+\; m l_1 \Bigl(\ddot{\theta}_1 \cos(\theta_1) - \dot{\theta}_1^2 \sin(\theta_1)\Bigr)
-\;+\; m l_2 \Bigl(\ddot{\theta}_2 \cos(\theta_2) - \dot{\theta}_2^2 \sin(\theta_2)\Bigr) 
-\;=\; 0.
+\;+ m l_2 \ddot{x}\,\cos(\theta_2) 
+\;= 0\\
+(M + 2m)\ddot{x}
+&\;+ m l_1 \Bigl(\ddot{\theta}_1 \cos(\theta_1) - \dot{\theta}_1^2 \sin(\theta_1)\Bigr)
+\;+m l_2 \Bigl(\ddot{\theta}_2 \cos(\theta_2) - \dot{\theta}_2^2 \sin(\theta_2)\Bigr) 
+\;= 0.
 \end{aligned}
 $$
 

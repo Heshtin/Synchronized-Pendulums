@@ -59,13 +59,13 @@ $$
 \+\
 \frac{g}{2}\sin\bigl(2\theta_2\bigr)
 \+\
-l_1\dot{\theta}_1^2\,\sin(\theta_1)
+l_1\dot{\theta}_1^2\sin(\theta_1)
 \+\
-l_2\dot{\theta}_2^2\,\sin(\theta_2)
+l_2\dot{\theta}_2^2\sin(\theta_2)
 \-\
 C_x\dot{x}
 \-\
-K\x
+Kx
 }{
 \frac{M}{m}
 \+\
